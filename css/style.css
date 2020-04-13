@@ -2,79 +2,49 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-.navbar-toggler:focus, .navbar-toggler:active {
-    outline: none;
-    box-shadow: none;
-  }
 
-.custom-navbar-brand {
-    font-size: 50px;
-    padding: 0px;
-}
 
-body {
-    background: #f2f5fa;
-}
+/* FOOTER */
 
-/* footer section */
 footer {
-    background-color: #525252;
-    color: #fafafa;
-    min-height: 120px;
-}
-.sr-uppercase {
-    text-transform: uppercase;
-}
-
-.sr-general-submenu {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    color: #fafafa;
-}
-
-.inline-block {
-    
-}
-
-.cv-pdf i {
-    font-size: 18px;
-    color: #fafafa;
+    border-color: transparent;
     text-align: center;
-    padding-left: 5px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
-.cv-pdf i:hover {
-    color: #e84610;
+.foot {
+    margin-bottom: 20px;
 }
 
-.social-links {
-    padding-bottom: 15px;
+a {
+    padding: 5px 15px 5px 10px;
+    background-color: transparent;
 }
 
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
+.alignment {
+    line-height: 2px;
+}
+
+i {
+    display: inline-block;
+    box-shadow: 0px 0px 2px #888888;
+    background-color: #c3c3c3;
+    color: #8f8f8f;
+    width: 41px;
+    height: 41px;
+    padding: 20px 0;
     border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
+    font-size: 28px;
     text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    vertical-align: middle;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
 }
 
-.social-links li a i:hover {
-    background: #e84610;
+i:hover {
+    color: #564f6f;
 }
 
-#footer-details {
-    padding: 20px;
-}
+/* MEDIA QUERIES */
