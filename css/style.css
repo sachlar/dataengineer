@@ -2,9 +2,23 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+/* body */
 
+body {
+    background-color: #fdfdfd;
+    font-family: "Exo", sans-serif;
+}
 
-/* FOOTER */
+/* navbar */
+
+.navbar {
+    background: none;
+    border-color: transparent;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+/* footer */
 
 footer {
     border-color: transparent;
